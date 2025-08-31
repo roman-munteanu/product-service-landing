@@ -1,0 +1,22 @@
+{
+  "app-title": "Product Service",
+  "app-description": "A centralized platform to effortlessly manage your product inventory across all locations. Quickly search products, check real-time availability, and access detailed specifications—all in multiple languages. Streamline operations and ensure seamless product visibility across your entire organization.",
+  "hero-title": "Streamline Your Product Management",
+  "hero-subtitle": "Manage inventory across all locations, track product availability, and simplify operations with our powerful platform.",
+  "get-started": "Get Started Today",
+  "features-title": "Powerful Features",
+  "feature1-title": "Manage Locations/Stores",
+  "feature1-desc": "Easily manage all your organization's locations and stores in one centralized platform.",
+  "feature2-title": "Organize Categories",
+  "feature2-desc": "Create and manage product categories with nested subcategories for better organization.",
+  "feature3-title": "Product Management",
+  "feature3-desc": "Add, edit, and manage products with detailed specifications and multiple language support.",
+  "feature4-title": "Inventory Tracking",
+  "feature4-desc": "Check product quantities in each location in real-time to optimize your inventory management.",
+  "feature5-title": "Advanced Search",
+  "feature5-desc": "Quickly find products by titles, descriptions, or specifications across your entire inventory.",
+  "footer-text": "The complete solution for managing your product inventory across multiple locations and languages.",
+  "follow-us": "Follow Us",
+  "footer-cta": "Ready to optimize your product management?",
+  "copyright": "© Product Service. All rights reserved."
+}

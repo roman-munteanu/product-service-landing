@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Service - Inventory Management Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="bundle.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-boxes logo-icon"></i>
+                    <div class="logo-text" data-i18n-key="app-title">Product Service</div>
+                </div>
+                <div class="service-description" data-i18n-key="app-description">
+                    A centralized platform to effortlessly manage your product inventory across all locations. Quickly search products, check real-time availability, and access detailed specifications—all in multiple languages.
+                </div>
+                <!-- Language Switcher -->
+                <div class="language-switcher">
+                    <select id="languageSwitcher" class="language-select" aria-label="Select language">
+                        <option value="en-US">English</option>
+                        <option value="ru-RU">Русский</option>
+                        <option value="ro-RO">Română</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 data-i18n-key="hero-title">Streamline Your Product Management</h1>
+            <p data-i18n-key="hero-subtitle">Manage inventory across all locations, track product availability, and simplify operations with our powerful platform.</p>
+            <a href="#" class="cta-button" data-i18n-key="get-started">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title" data-i18n-key="features-title">Powerful Features</h2>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n-key="feature1-title">Manage Locations/Stores</h3>
+                    <p class="feature-description" data-i18n-key="feature1-desc">Easily manage all your organization's locations and stores in one centralized platform.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n-key="feature2-title">Organize Categories</h3>
+                    <p class="feature-description" data-i18n-key="feature2-desc">Create and manage product categories with nested subcategories for better organization.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n-key="feature3-title">Product Management</h3>
+                    <p class="feature-description" data-i18n-key="feature3-desc">Add, edit, and manage products with detailed specifications and multiple language support.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n-key="feature4-title">Inventory Tracking</h3>
+                    <p class="feature-description" data-i18n-key="feature4-desc">Check product quantities in each location in real-time to optimize your inventory management.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n-key="feature5-title">Advanced Search</h3>
+                    <p class="feature-description" data-i18n-key="feature5-desc">Quickly find products by titles, descriptions, or specifications across your entire inventory.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="footer-logo-text" data-i18n-key="app-title">Product Service</div>
+                    <p class="footer-description" data-i18n-key="footer-text">
+                        The complete solution for managing your product inventory across multiple locations and languages.
+                    </p>
+                </div>
+
+                <div class="social-section">
+                    <h3 class="social-title" data-i18n-key="follow-us">Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-reddit-alien"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-cta">
+                    <p data-i18n-key="footer-cta">Ready to optimize your product management?</p>
+                    <button class="footer-button" data-i18n-key="get-started">Get started</button>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <span data-i18n-key="copyright">© Product Service. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
